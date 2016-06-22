@@ -1,0 +1,90 @@
+body{
+	background-color: black;
+}
+
+/** {
+  outline: red 2px solid;
+  display: block;
+}*/
+.main {
+  background-color: white;
+  margin-top: 110px;
+  padding-left: 100px;
+  min-width: 1200px;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+}
+.hadouken {
+  background-image: url('../images/hadouken.gif');
+  width: 156px; 
+  height: 90px;
+  display: none;
+  float: left;
+  position: absolute;
+  z-index: 10;
+  top:167px;
+  left:520px;
+}
+
+.ryu{
+	width: 659px;
+	height: 494px;
+	display: inline-block;
+}
+
+
+.ryu-still,.ryu-ready,.ryu-throwing,.ryu-cool{
+  	width: 659px;
+  	height: 494px;
+}
+.ryu-ready,.ryu-throwing,.ryu-cool{
+	display: none;
+}
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+  background-repeat: no-repeat;
+}
+.ryu-still{
+  background-image: url('../images/ryu-standing-still.png');
+}
+.ryu-ready{
+  background-image: url('../images/ryu-ready-position.gif');
+}
+.ryu-throwing{
+  background-image: url('../images/ryu-throwing-hadouken.png');
+}
+.ryu-cool{
+	background-image: url('../images/ryu-cool.gif');
+}
+#street-fighter-logo img{
+    width: 500px;
+    height: 314px;
+    float: right;
+    display: inline-block;
+    margin-top: -25em;
+    margin-right: 2em;
+}
+#street-fighter-logo{
+	margin-bottom: 300px;
+}
+
+.creator h1,.my-name h1{
+    color: red;
+    font-family: comical;
+    font-size: 50px;
+    width: 600px;
+    float: right;
+    display: none;
+    margin-top: -5em;
+    margin-right: -1.25em;
+}
+.help-text{
+	font-size: 30px;
+	font-weight: lighter;
+	width: 500px;
+	display: none;
+	margin-top: -13em;
+	margin-right: 1.25em;
+	float: right;
+}
+
